@@ -1,6 +1,6 @@
 # Adaptive and Explainable Margin Trading via LLM and RL
 
-![Adaptive and Explainable Margin Trading via LLM and RL](c:\Users\Junyi\Downloads\framework-finance-llm.jpg)
+![Adaptive and Explainable Margin Trading via LLM and RL](framework-finance-llm.jpg)
 
 ## Introduction
 This project presents an adaptive and explainable framework for portfolio management, integrating Large Language Models (LLMs) with Reinforcement Learning (RL) to dynamically adjust long-short positions in response to market conditions. Our approach leverages recent advancements in LLMs for processing unstructured data and providing transparent reasoning, thereby enhancing decision-making and transparency in financial strategies.
@@ -42,7 +42,7 @@ python run_position_reallocation.py
 
 ## Datasets
 ### Data Source
-The Dow Jones Industrial Average (DJIA) is selected as the portfolio pool. We follow \cite{gu2023margin} for the training, validation, and testing periods. Note that the test period is extended to 2020/5 - 2024/2 in our paper, as it includes complex economic fluctuations marked by a significant rise (COVID-19 pandemic recovery) and subsequent variations (supply chain disruptions and inflation). The price data of companies in DJIA for RL is sourced from Yahoo Finance.
+The Dow Jones Industrial Average (DJIA) is selected as the portfolio pool. We follow Margin Trader Paper for the training, validation, and testing periods. Note that the test period is extended to 2020/5 - 2024/2 in our paper, as it includes complex economic fluctuations marked by a significant rise (COVID-19 pandemic recovery) and subsequent variations (supply chain disruptions and inflation). The price data of companies in DJIA for RL is sourced from Yahoo Finance.
 
 Additionally, two distinct external data sources are collected and tested to evaluate their impact on near-future (six-month) US market trend prediction:
 1. **Macroeconomic Indicator Time Series Dataset:** Comprises monthly time series data for 21 key US economic metrics. The inflation rate data is sourced from the US Inflation Calculator, while the remaining macroeconomic indicators are obtained from the Federal Reserve Bank of St. Louis. Data with daily or quarterly features has been appropriately downsampled or upsampled to a monthly frequency.
