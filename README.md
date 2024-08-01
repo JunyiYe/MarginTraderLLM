@@ -7,8 +7,8 @@
 - **Explainable Reasoning:** Provides transparent explanations for market forecasts and position adjustments.
 - **Flexible Integration:** Accommodates various external data sources and data types, including time series and textual data.
 - **Improved Performance:** Achieves up to three times the return and doubles the Sharpe ratio compared to benchmarks.
-- **Publicly Available:** All data and code are publicly available in the data/ folder. Full data will be updated if accepted.
-
+- **Publicly Available:** All data and code are publicly available in the data/ folder.
+  
 ## Framework Overview
 ### Explainable Market Forecasting/Reasoning Pipeline
 - Utilizes LLMs to process diverse external data sources.
