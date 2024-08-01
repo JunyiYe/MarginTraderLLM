@@ -2,19 +2,12 @@
 
 ![Adaptive and Explainable Margin Trading via LLM and RL](framework-finance-llm.jpg)
 
-## Introduction
-This project presents an adaptive and explainable framework for portfolio management, integrating Large Language Models (LLMs) with Reinforcement Learning (RL) to dynamically adjust long-short positions in response to market conditions. Our approach leverages recent advancements in LLMs for processing unstructured data and providing transparent reasoning, thereby enhancing decision-making and transparency in financial strategies.
-
-The framework consists of two main stages: an Explainable Market Forecasting/Reasoning Pipeline and a Position Reallocation stage. The Market Forecasting/Reasoning Pipeline utilizes various LLMs to learn market trends from diverse external data sources, providing a clear reasoning path for optimal adjustment ratios. The Position Reallocation stage interacts with a pre-trained RL model to enhance decision-making and transparency throughout the sequential trading process.
-
-Our experiments demonstrate that this framework achieves significant improvements in return and risk metrics compared to benchmarks, showcasing its adaptability and effectiveness in diverse market conditions.
-
 ## Key Features
 - **Adaptive Adjustments:** Dynamically reallocates funds between long and short positions based on evolving market conditions.
 - **Explainable Reasoning:** Provides transparent explanations for market forecasts and position adjustments.
 - **Flexible Integration:** Accommodates various external data sources and data types, including time series and textual data.
 - **Improved Performance:** Achieves up to three times the return and doubles the Sharpe ratio compared to benchmarks.
-- **Publicly Available:** All data and code are publicly available in the data/ folder.
+- **Publicly Available:** All data and code are publicly available in the data/ folder. Full data will be updated if accepted.
 
 ## Framework Overview
 ### Explainable Market Forecasting/Reasoning Pipeline
@@ -28,8 +21,14 @@ Our experiments demonstrate that this framework achieves significant improvement
 - Enhances transparency and trust in financial decisions.
 
 ## Usage
-To run the framework, use the following commands:
 
+### Environment setup
+* FinRL
+* Python 3.10
+* torch
+* openai
+* transformers
+  
 ### Market Forecasting/Reasoning Pipeline
 ```bash
 python inference_open_source_llm.py --model Llama-3-70B
@@ -37,7 +36,7 @@ python inference_open_source_llm.py --model Llama-3-70B
 
 ### Position Reallocation Stage
 ```bash
-python run_position_reallocation.py
+python interaction_llm_rl.py
 ```
 
 ## Datasets
