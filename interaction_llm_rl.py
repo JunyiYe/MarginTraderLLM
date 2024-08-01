@@ -10,7 +10,7 @@ from stable_baselines3 import A2C
 from finrl.plot import get_baseline, backtest_stats
 from finrl.meta.preprocessor.yahoodownloader import YahooDownloader
 from finrl.meta.preprocessor.preprocessors import FeatureEngineer, data_split
-from env.marginEnv_ori import MarginTradingEnv
+from env.marginEnv_v1 import MarginTradingEnv
 from env.agent import DRLAgent
 from finrl.main import check_and_make_directories
 from finrl.config import (
@@ -78,8 +78,9 @@ trade = data_split(processed, TRADE_START_DATE,TRADE_END_DATE)
 
 
 # read prediction from LLMs
-ratio = pd.read_csv(f"data/{args.data}_{args.llm}_greedy.csv").Prediction
-# majority voting
+ratio = pd.read_csv(f"data/output/{args.data}_{args.llm}_greedy.csv").Prediction
+
+# majority voting for 5 runs
 # ratio = ratio.loc[:,['Prediction1', 'Prediction2', 'Prediction3', 'Prediction4',
 #                      'Prediction5']].mode(axis=1)
 # if ratio.shape[1]==1:
