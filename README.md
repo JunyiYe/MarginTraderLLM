@@ -25,8 +25,11 @@
 ### Environment setup
 * FinRL
 * Python 3.10
+* pandas
+* peft
 * torch
 * openai
+* anthropic
 * transformers
   
 ### Market Forecasting/Reasoning Pipeline
