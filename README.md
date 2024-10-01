@@ -1,5 +1,6 @@
 # Adaptive and Explainable Margin Trading via LLM and RL
 
+We introduce the source code of our paper "Adaptive and Explainable Margin Trading via Large Language Models on Portfolio Management".
 ![Adaptive and Explainable Margin Trading via LLM and RL](framework-finance-llm.jpg)
 
 ## Key Features
