@@ -1,6 +1,6 @@
 # Adaptive and Explainable Margin Trading via LLM and RL
 
-We introduce the source code of our paper "[Adaptive and Explainable Margin Trading via Large Language Models on Portfolio Management](https://dl.acm.org/doi/pdf/10.1145/3677052.3698681)".
+We introduce the source code of our paper "[Adaptive and Explainable Margin Trading via Large Language Models on Portfolio Management](https://dl.acm.org/doi/pdf/10.1145/3677052.3698681)" (ICAIF 2024).
 
 ![framework](framework-finance-llm.jpg)
 
