@@ -53,3 +53,17 @@ Additionally, two distinct external data sources are collected and tested to eva
 
 ## Conclusion
 Our adaptive and explainable framework for portfolio management represents a significant advancement in financial strategies, offering secure and efficient methods for dynamic long-short position adjustments using LLMs and RL. Its adaptability and transparent reasoning enhance decision-making, ensuring both profitability and stability in diverse market conditions.
+
+During training, the best model along with predictions and labels will be saved to the `result` directory.
+
+## Citation
+If you use this code for your research, please kindly cite our paper:
+```
+@inproceedings{gu2024adaptive,
+  title={Adaptive and Explainable Margin Trading via Large Language Models on Portfolio Management},
+  author={Gu, Jingyi and Ye, Junyi and Wang, Guiling and Yin, Wenpeng},
+  booktitle={Proceedings of the 5th ACM International Conference on AI in Finance},
+  pages={248--256},
+  year={2024}
+}
+```
