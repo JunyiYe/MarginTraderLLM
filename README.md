@@ -1,8 +1,8 @@
 # Adaptive and Explainable Margin Trading via LLM and RL
 
-We introduce the source code of our paper "[Adaptive and Explainable Margin Trading via Large Language Models on Portfolio Management](https://dl.acm.org/doi/pdf/10.1145/3677052.3698681)" (ICAIF 2024).
+[[paper](https://dl.acm.org/doi/pdf/10.1145/3677052.3698681)] [[slides](./assets/MarginTraderLLM_slides.pdf)]
 
-![framework](framework-finance-llm.jpg)
+![framework](./assets/figures/MarginTraderLLM.png)
 
 ## Key Features
 - **Adaptive Adjustments:** Dynamically reallocates funds between long and short positions based on evolving market conditions.
@@ -58,7 +58,7 @@ Our adaptive and explainable framework for portfolio management represents a sig
 During training, the best model along with predictions and labels will be saved to the `result` directory.
 
 ## Citation
-If you use this code for your research, please kindly cite our paper:
+If you find this project is helpful to your research, please consider to cite our paper:
 ```
 @inproceedings{gu2024adaptive,
   title={Adaptive and Explainable Margin Trading via Large Language Models on Portfolio Management},
