@@ -4,7 +4,7 @@
 
 # Adaptive and Explainable Margin Trading via Large Language Model (LLM) and Reinforcement Learning (RL)
 
-[[paper](https://dl.acm.org/doi/pdf/10.1145/3677052.3698681)] [[slides](./assets/MarginTraderLLM_slides.pdf)]
+[[paper](https://dl.acm.org/doi/10.1145/3677052.3698681)] [[slides](./assets/MarginTraderLLM_slides.pdf)]
 
 ![framework](./assets/figures/MarginTraderLLM.png)
 
